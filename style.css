@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#random-gif-button,
+#search-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#random-gif-button:hover,
+#search-button:hover {
+    background-color: #005f73;
+}
+
+#gif-container, #search-results {
+    margin-top: 1rem;
+}
+
+.usergifs img {
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
